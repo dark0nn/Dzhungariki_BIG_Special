@@ -1,0 +1,14 @@
+_base_: base.yaml
+method: unrolled
+unrolled:
+  num_iterations: 20
+  initial_lr: 0.01
+training:
+  epochs: 50
+  batch_size: 4
+  lr: 0.001
+losses:
+  ssim: 1.0
+  pcc: 0.5
+  edge: 0.3
+  crosstalk: 0.2

@@ -1,0 +1,10 @@
+wavelength: 532e-9
+pixel_size: 8e-6
+image_size: 128
+distances: [0.1, 0.2, 0.3, 0.4]
+num_planes: 4
+data:
+  root: ./data
+  image_size: 128
+device: cuda
+seed: 42
